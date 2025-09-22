@@ -1,0 +1,31 @@
+:root {
+    --orange: #ff8000;
+    --green: #01ac1b;
+    --darkGreen: #017f12;
+    --blue: #40bcf4;
+    --black: #131517;
+    --blackRgb: 30, 36, 41;
+    --white: #ffffff;
+    --lightGrey: #cbced0;
+    --lightestGrey: #f0f0f0;
+    --darkGrey: #778899;
+    --darkerGrey: #445566;
+    --fontOne: 'Graphik', sans-serif;
+    --fontTwo: 'Georgia', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontOne);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.hidden {
+    display: none;
+}

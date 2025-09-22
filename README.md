@@ -1,69 +1,54 @@
-# React + TypeScript + Vite
+# Final Project Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The final project assignment is to develop a web application and deploy it to the cloud.  
+It should consist of a **database**, **backend (server)**, and **frontend (client)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Frontend
+- Should be implemented as a separate application.
+- Recommended: **React** library.  
+- Alternatives: Vue, Svelte, Angular, Next.js, etc.  
+- **TypeScript** is preferred and recommended (JavaScript is also acceptable).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Backend
+- Communicates with the frontend using **REST APIs** or **GraphQL**.
+- You are free to choose any development stack:
+  - TypeScript (JavaScript) / Node.js
+  - Java / Spring Boot
+  - C# / ASP .NET
+  - Python / Django
+  - PHP / Laravel
+- **Note:** SQLite is not allowed because it is not a database server.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Database
+- Any database technology may be used, except SQLite.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Example project ideas
+- Car rental system  
+- System for reviews of concerts and music releases  
+- Banking system  
+- Movie database like [themoviedb.org](https://www.themoviedb.org/)  
+- Video game database like [rawg.io](https://rawg.io/)  
+- System for user reviews and recommendations of best restaurants (like yelp.com)  
+- Portfolio management system for stock trading  
+- Airline reservation system  
+- Library management system  
+- Web shop, job portal, or art collection system  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Requirements
+- The project should be **complex enough** to cover the curriculum of the whole course.
+- Target architecture:  
+  - **Database server**  
+  - **Web server (backend)**  
+  - **Web client (frontend)**
+
+---
