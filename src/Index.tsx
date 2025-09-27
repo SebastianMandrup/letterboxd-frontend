@@ -1,4 +1,5 @@
 import Backdrop from './components/backdrop/Backdrop'
+import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import SectionFeaturedMovies from './components/sectionFeaturedMovies/SectionFeaturedMovies'
 import SectionJustReviewed from './components/sectionJustReviewed/SectionJustReviewed'
@@ -16,6 +17,7 @@ function Index() {
         <SectionLetterboxLetsYou />
         <SectionJustReviewed />
       </main>
+      <Footer />
     </>
   )
 }

@@ -58,48 +58,51 @@ function SectionPopularReviews() {
 
     return (
         <section>
-
-            <h5 className='sectionHeader underlinedHeader'>
-                POPULAR REVIEWS THIS WEEK
-                <span>
+            <header id={styles.headerPopularReviews} className='sectionHeader underlinedHeader'>
+                <h5 className='clickable'>
+                    POPULAR REVIEWS THIS WEEK
+                </h5>
+                <span className='clickable'>
                     MORE
                 </span>
-            </h5>
+            </header>
 
-            {popularReviews.map((review) => {
-                return (
-                    <article className={styles.articlePopularReview}>
-                        <img className={styles.imgPopularReviewMoviePoster} src={review.moviePosterUrl} alt={`poster of ${review.movie}`} />
-                        <section className={styles.sectionPopularReviewContent}>
-                            <header>
-                                <p>
-                                    {review.movie}
+            {
+                popularReviews.map((review) => {
+                    return (
+                        <article className={styles.articlePopularReview}>
+                            <img className={styles.imgPopularReviewMoviePoster} src={review.moviePosterUrl} alt={`poster of ${review.movie}`} />
+                            <section className={styles.sectionPopularReviewContent}>
+                                <header>
+                                    <p>
+                                        {review.movie}
+                                    </p>
                                     <span>
                                         {review.releaseYear}
                                     </span>
+                                </header>
+                                <section className={styles.sectionPopularReviewAuthorAndScore}>
+                                    <img src={review.authorAvatarUrl} alt={`${review.authorName}'s avatar`} />
+                                    <p>{review.authorName}</p>
+                                    <div className={styles.divStars}>
+                                        {[...Array(review.score)].map((_, starIndex) => (
+                                            <span key={starIndex}>★</span>
+                                        ))}
+                                    </div>
+                                </section>
+                                <p className={styles.pReviewContent}>
+                                    {review.reviewContent}
                                 </p>
-                            </header>
-                            <section className={styles.sectionPopularReviewAuthorAndScore}>
-                                <img src={review.authorAvatarUrl} alt={`${review.authorName}'s avatar`} />
-                                <p>{review.authorName}</p>
-                                <div className={styles.divStars}>
-                                    {[...Array(review.score)].map((_, starIndex) => (
-                                        <span key={starIndex}>★</span>
-                                    ))}
-                                </div>
+                                <p className={styles.pNumberOfLikes}>
+                                    {review.numberOfLikes} likes
+                                </p>
                             </section>
-                            <p className={styles.pReviewContent}>
-                                {review.reviewContent}
-                            </p>
-                            <p className={styles.pNumberOfLikes}>
-                                {review.numberOfLikes} likes
-                            </p>
-                        </section>
-                    </article>
-                )
-            })}
+                        </article>
+                    )
+                })
+            }
 
-        </section>
+        </section >
     );
 }
 
