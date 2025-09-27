@@ -1,6 +1,6 @@
 import type { FunctionComponent } from 'react';
 import SectionGetStarted from '../sectionGetStarted/SectionGetStarted';
-import styles from './backdrop.module.css';
+import styles from './Backdrop.module.css';
 
 interface BackdropProps {
     src: string;
