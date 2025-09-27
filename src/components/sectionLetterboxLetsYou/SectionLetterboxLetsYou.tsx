@@ -1,5 +1,5 @@
 import ButtonLetterboxLetsYou from './ButtonLetterboxLetsYou';
-import styles from './sectionLetterboxLetsYou.module.css';
+import styles from './SectionLetterboxLetsYou.module.css';
 
 function SectionLetterboxLetsYou() {
 
