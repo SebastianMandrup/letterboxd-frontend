@@ -1,4 +1,4 @@
-import styles from './articleFeaturedMovie.module.css';
+import styles from './ArticleFeaturedMovie.module.css';
 
 export interface ArticleFeaturedMovieProps {
     src: string;
@@ -19,7 +19,9 @@ function ArticleFeaturedMovie({ src, alt, viewCount, likeCount }: ArticleFeature
            5 2.239 5 5-2.239 5-5 5zm0-8c-1.654 0-3 1.346-3 3s1.346 3 3 3
            3-1.346 3-3-1.346-3-3-3z"/>
                     </svg>
-                    <span>{viewCount}</span>
+                    <span>{
+                        viewCount > 1000 ? (viewCount / 1000).toFixed(1) + 'K' : viewCount
+                    }</span>
                 </div>
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="orange" viewBox="0 0 24 24">
@@ -29,7 +31,9 @@ function ArticleFeaturedMovie({ src, alt, viewCount, likeCount }: ArticleFeature
            19.58 3 22 5.42 22 8.5
            c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                     </svg>
-                    <span>{likeCount}</span>
+                    <span>{
+                        likeCount > 1000 ? (likeCount / 1000).toFixed(1) + 'K' : likeCount
+                    }</span>
                 </div>
             </section>
         </article>

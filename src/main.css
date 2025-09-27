@@ -3,7 +3,8 @@
     --green: #01ac1b;
     --darkGreen: #017f12;
     --blue: #40bcf4;
-    --black: #131517;
+    --gold: #f5c518;
+    --black: #14181c;
     --blackRgb: 30, 36, 41;
     --white: #ffffff;
     --lightGrey: #cbced0;
@@ -24,8 +25,4 @@
 body {
     background-color: var(--black);
     color: var(--white);
-}
-
-.hidden {
-    display: none;
 }

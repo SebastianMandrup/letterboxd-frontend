@@ -1,5 +1,5 @@
 import ArticleFeaturedMovie, { type ArticleFeaturedMovieProps } from './ArticleFeaturedMovie';
-import styles from './sectionFeaturedMovies.module.css';
+import styles from './SectionFeaturedMovies.module.css';
 
 const SectionFeaturedMovies = () => {
 

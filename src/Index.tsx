@@ -1,6 +1,7 @@
-import Backdrop from './components/backdrop/backdrop'
-import Header from './components/header/header'
+import Backdrop from './components/backdrop/Backdrop'
+import Header from './components/header/Header'
 import SectionFeaturedMovies from './components/sectionFeaturedMovies/SectionFeaturedMovies'
+import SectionJustReviewed from './components/sectionJustReviewed/SectionJustReviewed'
 import SectionLetterboxLetsYou from './components/sectionLetterboxLetsYou/SectionLetterboxLetsYou'
 import './index.css'
 
@@ -9,10 +10,11 @@ function Index() {
   return (
     <>
       <Header />
+      <Backdrop src="./backdrop.jpg" alt="backdrop" caption="FILMMAKERS ON FILMMAKERS (2025)" />
       <main>
-        <Backdrop src="./backdrop.jpg" alt="backdrop" caption="FILMMAKERS ON FILMMAKERS (2025)" />
         <SectionFeaturedMovies />
         <SectionLetterboxLetsYou />
+        <SectionJustReviewed />
       </main>
     </>
   )

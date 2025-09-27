@@ -44,10 +44,10 @@
             align-items: center;
             gap: 5px;
 
-            p {
+            span {
                 color: white;
-                font-size: 14px;
-                font-weight: bold;
+                font-size: 24px;
+                font-weight: 300;
             }
         }
     }

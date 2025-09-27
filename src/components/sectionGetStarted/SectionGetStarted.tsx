@@ -1,4 +1,4 @@
-import styles from './sectionGetStarted.module.css';
+import styles from './SectionGetStarted.module.css';
 
 const SectionGetStarted = () => {
     return (
