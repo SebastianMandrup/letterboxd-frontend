@@ -4,7 +4,7 @@ import Header from './components/header/Header'
 import SectionFeaturedMovies from './components/sectionFeaturedMovies/SectionFeaturedMovies'
 import SectionJustReviewed from './components/sectionJustReviewed/SectionJustReviewed'
 import SectionLetterboxLetsYou from './components/sectionLetterboxLetsYou/SectionLetterboxLetsYou'
-import './Index.css'
+import './index.css'
 
 function Index() {
 
