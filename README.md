@@ -1,5 +1,10 @@
 # Final Project Assignment
 
+## My Implementation
+This project is a clone of letterbox.com - a social networking application relolving around users rating different movies they have seen. Main functionality will include - user auth, movie reviewing, and browsing popular movies/reviews. 
+
+# Final Project Assignment
+
 The final project assignment is to develop a web application and deploy it to the cloud.  
 It should consist of a **database**, **backend (server)**, and **frontend (client)**.
 
