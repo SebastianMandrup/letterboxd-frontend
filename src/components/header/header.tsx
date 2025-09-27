@@ -1,11 +1,6 @@
-import type { FunctionComponent } from 'react';
 import styles from './header.module.css';
 
-interface HeaderProps {
-
-}
-
-const Header: FunctionComponent<HeaderProps> = () => {
+const Header = () => {
     return (
         <>
             <header id={styles.headerMain}>
