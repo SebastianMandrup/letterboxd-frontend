@@ -70,7 +70,7 @@ function Footer() {
             </section>
 
             <p id={styles.copyright}>
-                © Letterboxd Limited. Made by fans in Aotearoa New Zealand. Film data from TMDB. Mobile site.
+                © BoxxedLetter Limited. Made by fans in Copenhagen, Denmark. Film data from TMDB. Mobile site.
             </p>
         </footer>
     );

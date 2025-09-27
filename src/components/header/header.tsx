@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <header id={styles.headerMain}>
                 <img src="./letterboxd-icon.png" alt="icon" />
-                <h1>Letterboxd</h1>
+                <h1>Boxedletter</h1>
                 <nav>
                     <ul>
                         <li>
