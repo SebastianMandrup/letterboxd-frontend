@@ -1,4 +1,4 @@
-import styles from './SectionJustReviewed.module.css';
+import styles from './sectionJustReviewed.module.css';
 import SectionPopularLists from './SectionPopularLists';
 import SectionPopularReviews from './SectionPopularReviews';
 

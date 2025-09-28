@@ -1,4 +1,4 @@
-import styles from './ArticleFeaturedMovie.module.css';
+import styles from './articleFeaturedMovie.module.css';
 
 export interface ArticleFeaturedMovieProps {
     src: string;

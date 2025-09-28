@@ -1,4 +1,4 @@
-import styles from './SectionPopularReviews.module.css';
+import styles from './sectionPopularReviews.module.css';
 
 function SectionPopularReviews() {
 
