@@ -1,12 +1,13 @@
 #sectionGetStarted {
     width: 100%;
     position: relative;
-    top: -150px;
+    top: -130px;
     text-align: center;
     margin-bottom: -100px;
 
     h2 {
         font-size: 2.1rem;
+        line-height: 1.3;
         font-family: var(--fontTwo);
     }
 

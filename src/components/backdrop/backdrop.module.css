@@ -25,9 +25,8 @@
     position: absolute;
     top: 35%;
     right: 5%;
-    color: rgba(240, 240, 240, 0.25);
+    color: var(--darkerGrey);
     font-size: 0.8rem;
-    padding: 2px 5px;
     border-radius: 5px;
     transform: rotate(-90deg);
     transform-origin: top right;

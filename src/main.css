@@ -7,6 +7,7 @@
     --black: #14181c;
     --blackRgb: 30, 36, 41;
     --white: #ffffff;
+    --grey: #888c8e;
     --lightGrey: #cbced0;
     --lightestGrey: #f0f0f0;
     --darkGrey: #778899;
@@ -14,6 +15,8 @@
     --darkestGrey: #2a2f36;
     --fontOne: 'Graphik', sans-serif;
     --fontTwo: 'Georgia', serif;
+
+    --mainWidth: 960px;
 }
 
 * {

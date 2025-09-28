@@ -66,6 +66,12 @@
         width: 25px;
         height: 25px;
         object-fit: cover;
+        border: 1px solid transparent;
+
+        &:hover {
+            border: 1px solid var(--blue);
+            cursor: pointer;
+        }
     }
 
     p {
@@ -95,5 +101,21 @@
 .pNumberOfLikes {
     font-size: 0.8rem;
     color: var(--darkGrey);
-    margin-top: 20px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+
+    &:hover {
+        span {
+            color: var(--darkGrey)
+        }
+
+        color: var(--lightGrey);
+        cursor: pointer;
+    }
 }
