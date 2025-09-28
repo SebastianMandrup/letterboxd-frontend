@@ -3,6 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    translate: 0 -100px;
     gap: 12px;
+    margin-bottom: 40px;
 }

@@ -1,5 +1,4 @@
 import type { FunctionComponent } from 'react';
-import SectionGetStarted from '../sectionGetStarted/SectionGetStarted';
 import styles from './backdrop.module.css';
 
 interface BackdropProps {
@@ -10,16 +9,10 @@ interface BackdropProps {
 
 const Backdrop: FunctionComponent<BackdropProps> = ({ src, alt, caption }) => {
     return (
-        <section id={styles.sectionBackdrop}>
-            <div className={styles.imageWrapper}>
-                <img src={src} alt={alt} />
-                <div className={styles.overlay}>
-                </div>
-            </div>
-            <span>{caption}</span>
-            <SectionGetStarted />
+        <section className={styles.sectionBackdrop}>
+            <img className={styles.imgBackdrop} src={src} alt={alt} />
+            <span className={styles.spanOverlayCaption}>{caption}</span>
         </section>
-
     );
 }
 

@@ -1,10 +1,9 @@
 #sectionGetStarted {
     width: 100%;
     position: relative;
-    top: -40px;
+    top: -150px;
     text-align: center;
-    backdrop-filter: blur(4px);
-    background-color: rgba(30, 36, 41 0.3);
+    margin-bottom: -100px;
 
     h2 {
         font-size: 2.1rem;
