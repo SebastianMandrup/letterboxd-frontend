@@ -1,6 +1,6 @@
-import list_1 from '../../assets/list-1.png';
-import list_2 from '../../assets/list-2.png';
-import list_3 from '../../assets/list-3.png';
+import list_1 from '../../../assets/list-1.png';
+import list_2 from '../../../assets/list-2.png';
+import list_3 from '../../../assets/list-3.png';
 import styles from './sectionPopularLists.module.css';
 import SectionPopularReviewers from './SectionPopularReviewers';
 

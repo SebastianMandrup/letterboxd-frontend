@@ -1,10 +1,10 @@
-import Backdrop from './components/backdrop/Backdrop'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import SectionFeaturedMovies from './components/sectionFeaturedMovies/SectionFeaturedMovies'
-import SectionGetStarted from './components/sectionGetStarted/SectionGetStarted'
-import SectionJustReviewed from './components/sectionJustReviewed/SectionJustReviewed'
-import SectionLetterboxLetsYou from './components/sectionLetterboxLetsYou/SectionLetterboxLetsYou'
+import Backdrop from './components/index/backdrop/Backdrop'
+import Footer from './components/shared/footer/Footer'
+import Header from './components/shared/header/Header'
+import SectionFeaturedMovies from './components/index/sectionFeaturedMovies/SectionFeaturedMovies'
+import SectionGetStarted from './components/index/sectionGetStarted/SectionGetStarted'
+import SectionJustReviewed from './components/index/sectionJustReviewed/SectionJustReviewed'
+import SectionLetterboxLetsYou from './components/index/sectionLetterboxLetsYou/SectionLetterboxLetsYou'
 import './index.css'
 
 function Index() {
