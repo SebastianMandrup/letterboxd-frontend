@@ -3,7 +3,7 @@ import styles from './recentStories.module.css';
 function RecentStories() {
 
     // imgUrl (movie screenshot), authorAvatarUrl, authorName, storyTitle, storyContentSnippet
-    const recentStories = [];
+    // const recentStories = [];
 
 
     return (
