@@ -10,6 +10,19 @@
     gap: 12px;
     margin-bottom: 20px;
 
+    /* TODO */
+    &:nth-child(3n+1) :hover {
+        background-color: var(--green);
+    }
+
+    &:nth-child(3n+2) :hover {
+        background-color: var(--orange);
+    }
+
+    &:nth-child(3n+3) :hover {
+        background-color: var(--blue);
+    }
+
     button {
         width: 100%;
         height: 110px;

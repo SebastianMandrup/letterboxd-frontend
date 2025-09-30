@@ -5,8 +5,12 @@ main {
 
 .sectionHeader {
     color: var(--darkGrey);
-    font-size: 0.8rem;
-    font-weight: 400;
+
+    h6 {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+
     margin-bottom: 10px;
 }
 
