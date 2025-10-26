@@ -1,7 +1,6 @@
 .headerMain {
-    width: var(--mainWidth);
+    width: calc(var(--mainWidth) - 64px);
     margin: 0 auto;
-    padding: 16px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,6 +10,7 @@
         height: 30px;
         border-radius: 20px;
         margin-right: 12px;
+        margin: 16px 0;
 
         &:hover {
             cursor: pointer;
@@ -25,58 +25,5 @@
         }
     }
 
-    nav {
-        margin-left: auto;
 
-        ul {
-            list-style: none;
-            display: flex;
-            gap: 16px;
-
-            li {
-
-                a {
-                    text-decoration: none;
-                    color: var(--lightGrey);
-                    font-weight: 500;
-                    font-size: 0.9rem;
-
-                    &:hover {
-                        color: var(--white);
-                    }
-                }
-            }
-        }
-    }
-
-    form {
-        position: relative;
-
-        input {
-            border: none;
-            margin-left: 16px;
-            background-color: rgba(240, 240, 240, 0.25);
-            border-radius: 14px;
-            padding: 8px;
-            color: var(--lightGrey);
-            font-size: 0.8rem;
-            width: 140px;
-
-            &:focus {
-                outline: none;
-                background-color: var(--white);
-                color: var(--black);
-            }
-
-        }
-
-        svg {
-            position: absolute;
-            right: 8px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--lightGrey);
-        }
-
-    }
 }

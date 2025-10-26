@@ -70,7 +70,7 @@ function Footer() {
             </section>
 
             <p id={styles.copyright}>
-                © BoxxedLetter Limited. Made by fans in Copenhagen, Denmark. Film data from TMDB. Mobile site.
+                © BoxxedLetter FAKE. Made by MUO in Copenhagen, Denmark. Scraped film data.
             </p>
         </footer>
     );

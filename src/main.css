@@ -3,6 +3,8 @@
     --green: #01ac1b;
     --darkGreen: #017f12;
     --blue: #40bcf4;
+    --darkBlue: #1f272e;
+    --navy: #14181c;
     --gold: #f5c518;
     --black: #14181c;
     --blackRgb: 30, 36, 41;
@@ -16,7 +18,11 @@
     --fontOne: 'Graphik', sans-serif;
     --fontTwo: 'Georgia', serif;
 
-    --mainWidth: 960px;
+    --mainWidth: 1020px;
+
+    --lightBorderRadius: 4px;
+    --mediumBorderRadius: 6px;
+    --heavyBorderRadius: 8px;
 }
 
 * {
@@ -29,4 +35,8 @@
 body {
     background-color: var(--black);
     color: var(--white);
+}
+
+.hidden {
+    display: none !important;
 }
